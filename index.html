@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <title>Young Ideas</title>
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <link href="reset.css" rel="stylesheet" type="text/css">
+  <link href="reset-webview.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <div class="header-container">
+    <header style="display:flex;flex-direction: column;"> <img src="image2.png" alt="logo"> <span>Young IDEAS</span>
+      <sub style="font-size: 9px;">There is a creative
+        side of you!</sub>
+      <h3 style="font-size: 22px;color: azure;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+    </header>
+    <ul class="nav" id="navid">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="#para1">Who we are</a></li>
+      <li><a href="#para2">Who is Young</a></li>
+      <li><a href="#para3">Why us</a></li>
+      </li>
+    </ul>
+    <div id="header-img">
+      <div id="header-button">
+        <button type="button" onclick="">Submit Project</button>
+        <button type="button" onclick="">Subscribe Newsletter</button>
+      </div>
+    </div>
+  </div>
+  <div id="para1" class="para revealable">
+    <h1>Who are We?</h1>
+    <p>
+      Young ideas is not a specifc person. Young Ideas is a community of people who believe in young ideas: a community
+      of people who believe that investing in the talents and intellect of young people is what can gurrantee a
+      sustainable future. This is platform for any youth to share their work, be it a young cook who wants to share a
+      recipe of their spin to a famous cuisine, a young programmer who wants to share their exciting app and how it was
+      built, or even a young photographer who wants to share their thrilling wildlife photos taken on their trip to
+      Africa. The embodiment and statue of the website revolves around the need for youths and young adults to express
+      themselves, their ideas, their passions and their projects to a keen and engaging audience in an environment of
+      like ambitious and audacious minds. With very few plartforms for young people to showcase their thouhts, ideas,
+      and talents, Young IDEAS is a great place to start.
+    </p>
+  </div>
+  <div id="para2" class="para revealable">
+    <h1>WHO is Young?</h1>
+    <p>
+      All the projects on this website are works of young people up to the age of 25 years. We help empower young people
+      to showcase their gifts and talents to a broader audience. Whatever gift you have, whether it's that big mouth of
+      yours that makes people laugh, or your strong interest in zoology; from science, to arts, and even music,
+      YoungIDEAS is a great place for you to showcase your talents.
+    </p>
+  </div>
+  <div id="para3" class="para revealable">
+    <h1>WHY US?</h1>
+    <p>
+      Get to experience a dedicated audience that is here just connect with you. Showcase your project to an audience
+      with potential investors, partners, and fellows young ambitious dreamers there to inspire you and motivate you to
+      do even more greater stuff in life.
+    </p>
+  </div>
+  <div class="img-container"> <img src="image3.jpg" alt="picture of young people" style="width:100%; height: auto;"> </div>
+  
+  <h1>Be part of something big!</h1>
+  <div class="petition-container">
+    <p class="petition-para" id="petition-para"> Help support our Young Ideas Summit coming up in Harare, Zimbabwe.
+      Every sign up that you make helps a passionate and brilliant child receive full sponsership to attend the summit. <br> <br>
+     <span id=petpara style="display: none;"> <b>Guess What <span id=petcount> </span> people have signed this petition and support this cause. </b> </span> 
+    </p>
+    <p class="signatures" id="signatures"> Signatures Appear here</p>
+  </div>
+  <div class="petition">
+    <form id="sign-petition">
+      <label id="form_title" class="form_element">
+        <h2>Sign Our Petition</h2>
+      </label>
+      <label for="name" id="namelb" class="form_element">Name</label>
+      <input type="text" id="name" name="name" class="form_element" placeholder="Enter your name" required>
+      <label for="hometown" id="hometownlb" class="form_element">Hometown</label>
+      <input type="text" id="hometown" class="form_element" name="hometown" placeholder="Enter your hometown">
+      <label for="email" id="emaillb" class="form_element">Email</label><input type="email" id="email" name="email"
+        class="form_element" placeholder="Enter your email" required>
+      <input type="submit" id="petition_button" value="Sign Now">
+    </form>
+  </div>
+  <footer>
+    <h2> Resources </h2>
+    <br>
+    <a href="https://inventionland.com/blog/ten-kid-inventors-that-changed-our-lives/" target="_blank"> Ten Young
+      Inventors</a>
+    | <a href="https://www.cnn.com/2018/03/14/world/20-young-inventors-who-changed-the-world/index.html"
+      target="_blank"> What CNN Has to Say</a>
+
+  </footer>
+  <!-- Modal -->
+  <div id="thanks-modal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <div id="modal-text-container">
+        <p id="thanks-modal-content">
+          Thank you!
+        </p>
+        <!-- button here (stretch feature) -->
+      </div>
+      <!-- image here-->
+      <img src="celebration.png" alt="celebration image" id="modal-img">
+    </div>
+
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
